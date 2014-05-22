@@ -192,5 +192,14 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
   </component>
+  <component name="libraryTable">
+    <library name="samplescripts">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$PROJECT_DIR$/../../WAAT/samplescripts" />
+      </SOURCES>
+    </library>
+  </component>
 </project>
 

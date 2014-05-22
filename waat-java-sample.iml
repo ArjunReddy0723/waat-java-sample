@@ -450,6 +450,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="samplescripts" level="project" />
   </component>
 </module>
 
