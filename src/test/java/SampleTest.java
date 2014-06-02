@@ -1,10 +1,8 @@
 import org.junit.Test;
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import static java.sql.DriverManager.println;
 
 public class SampleTest {
 
@@ -12,7 +10,7 @@ public class SampleTest {
     public void SampleTest(){
         WebDriver driver = new FirefoxDriver();
         driver.navigate().to("http://essenceoftesting.blogspot.in/");
-        driver.findElement(By.cssSelector(".Classic")).click();
+        driver.findElement(By.cssSelector("input#search")).sendKeys("BDT");
         driver.close();
         driver.quit();
     }
